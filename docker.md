@@ -15,11 +15,11 @@ docker run -itd --network host -p 22568:22568 --name migrationhelper jiaxianlin/
 ### Query Migration Recommendations for a Library
 
 ```
-http://migration-helper.net:22568/recommend?fromLib=org.json:json&page=0&size=20
+http://localhost:22568/recommend?fromLib=org.json:json&page=0&size=20
 ```
 
 ### Query Related Repositories and Commits for a Source/Target Library Pair
 
 ```
-http://migration-helper.net:22568/recommend-one?fromLib=org.json:json&toLib=com.google.code.gson:gson
+http://localhost:22568/recommend-one?fromLib=org.json:json&toLib=com.google.code.gson:gson
 ```
