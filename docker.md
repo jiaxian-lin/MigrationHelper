@@ -95,7 +95,7 @@ response
 }
 ```
 
-### 查询两个库之间的迁移记录
+<!-- ### 查询两个库之间的迁移记录
 
 ```
 http://localhost:22568/recommend-one?fromLib=org.json:json&toLib=com.google.code.gson:gson
@@ -135,7 +135,7 @@ http://localhost:22568/recommend-one?fromLib=org.json:json&toLib=com.google.code
 	}
 }
 ```
-
+ -->
 ### 前20个最相近的前缀
 
 ```
